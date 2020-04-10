@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/vue.js"></script>
+    <title>Covid19Latinoamerica</title>
+</head>
+<body style="background-color: #212121;">
+    <div id="app" style="text-align: center; margin-top: 100px;">    
+        <h2 style="color: #fff;">Casos de Covid19 en Colombia a la fecha {{fechaActual}}</h2>
+       <h3><a href="paginas/confirmados.html" style="text-decoration: none; color: #40C4FF">Ver Gráfica de los {{totalConfirmados}} Confirmados</a></h3>
+       <h3><a href="paginas/recuperados.html" style="text-decoration: none; color: #69F0AE">Ver Gráfica de los {{totalRecuperados}} Recuperados</a></h3>
+       <h3><a href="paginas/fallecidos.html" style="text-decoration: none; color: #FF5252">Ver Gráfica de los {{totalFallecidos}} Fallecidos</a></h3>
+       
+       
+       <div style="margin-top: 100px;">
+        <h5><a href="https://www.minsalud.gov.co/Paginas/default.aspx" style="text-decoration: none; color: #fff;" target="_blank">Fuente de datos extraida de MIN SALUD Colombia</a></h5>
+        <h5><a href="https://martinmedinaruvian.github.io/index/" style="text-decoration: none; color: #fff" target="_blank">Powered By: Martin Medina</a></h5>
+       </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
